@@ -100,6 +100,22 @@ const Menu = () => {
                             </NavLink>
                         </li>
 
+                        <li>
+                            <NavLink to={`/prueba1`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Prueba1
+                                </span>
+                            </NavLink>
+                        </li>
+
                         <li >
                             <a href={"#mn7"}
                                 data-bs-toggle="collapse"
