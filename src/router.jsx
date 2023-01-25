@@ -8,9 +8,16 @@ import Welcome from './views/welcome/Welcome';
 import Dashboard from './views/dashboard/Dashboard';
 import Login from './views/login/Login';
 import NotFount from './views/pages/NotFound';
-
-import Usuario from './views/usuario/Usuario';
-import Roles from './views/roles/Usuario';
+import Usuarios from './views/usuarios/Usuarios'
+import Roles from './views/roles/Roles'
+import Ingresos from './views/ingresos/Ingresos';
+import Capitulos from './views/capitulos/Capitulos'
+import Universidades from './views/universidades/Universidades'
+import Conceptos from './views/conceptos/Conceptos'
+import Ingenieros from './views/ingenieros/Ingenieros'
+import Cobros from './views/cobros/Cobros'
+import Reportes from './views/reportes/Reportes'
+import Entidades from './views/entidades/Entidades'
 
 const router = createBrowserRouter([
     {
@@ -31,13 +38,45 @@ const router = createBrowserRouter([
                 element: <Welcome />
             },
             {
-                path: '/usuario',
-                element: <Usuario />
+                path: '/usuarios',
+                element: <Usuarios />
             },
             {
                 path: '/roles',
                 element: <Roles />
             },
+            {
+                path: '/ingresos',
+                element: <Ingresos />
+            },
+            {
+                path: '/capitulos',
+                element: <Capitulos />
+            },
+            {
+                path: '/universidades',
+                element: <Universidades />
+            },
+            {
+                path: '/conceptos',
+                element: <Conceptos />
+            },
+            {
+                path: '/ingenieros',
+                element: <Ingenieros />
+            },
+            {
+                path: '/cobros',
+                element: <Cobros />
+            },
+            {
+                path: '/reportes',
+                element: <Reportes />
+            },
+            {
+                path: '/entidades',
+                element: <Entidades />
+            }
         ]
     },
     {
