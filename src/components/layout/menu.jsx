@@ -37,7 +37,7 @@ const Menu = () => {
 
                         <li>
                             <NavLink to={`/welcome`}
-                                className="pro-inner-item active-link"
+                                className="pro-inner-item "
                                 role="button"
                                 id="menu1">
                                 <span className="pro-icon-wrapper">
@@ -64,6 +64,21 @@ const Menu = () => {
                                 </span>
                                 <span className="pro-item-content">
                                     menu 2
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/Roles`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    roles
                                 </span>
                             </NavLink>
                         </li>

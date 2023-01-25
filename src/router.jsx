@@ -8,7 +8,7 @@ import Welcome from './views/welcome/Welcome';
 import Dashboard from './views/dashboard/Dashboard';
 import Login from './views/login/Login';
 import NotFount from './views/pages/NotFound';
-
+import Roles from'./views/roles/Roles';
 const router = createBrowserRouter([
     {
         path: '/',
@@ -26,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: '/welcome',
                 element: <Welcome />
+            },
+            {
+                path: '/Roles',
+                element: <Roles />
             },
         ]
     },
