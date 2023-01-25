@@ -10,6 +10,7 @@ import Login from './views/login/Login';
 import NotFount from './views/pages/NotFound';
 
 import Usuario from './views/usuario/Usuario';
+import Roles from './views/roles/Usuario';
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
             {
                 path: '/usuario',
                 element: <Usuario />
+            },
+            {
+                path: '/roles',
+                element: <Roles />
             },
         ]
     },
