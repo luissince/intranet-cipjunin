@@ -4,7 +4,7 @@ import { images } from '../../constants';
 
 const Menu = () => {
 
-    useEffect(() => {    
+    useEffect(() => {
         onEventSideBar();
     }, []);
 
@@ -46,14 +46,14 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-                                    menu 1
+                                    Welcome 
                                 </span>
                             </NavLink>
                         </li>
 
 
                         <li>
-                            <NavLink to={`/dashboard`}
+                            <NavLink to={`/usuarios`}
                                 className="pro-inner-item"
                                 role="button"
                                 id="menu2">
@@ -63,7 +63,7 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-                                    menu 2
+                                    Usuarios
                                 </span>
                             </NavLink>
                         </li>
@@ -83,6 +83,143 @@ const Menu = () => {
                             </NavLink>
                         </li>
 
+                        <li>
+                            <NavLink to={`/roles`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Roles
+                                </span>
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to={`/ingresos`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Ingresos
+                                </span>
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to={`/capitulos`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Capitulos
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/universidades`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Universidades
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/conceptos`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Conceptos
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/ingenieros`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Ingenieros
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/cobros`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Cobros
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/reportes`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Reportes
+                                </span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/entidades`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Entidades
+                                </span>
+                            </NavLink>
+                        </li>
                         <li >
                             <a href={"#mn7"}
                                 data-bs-toggle="collapse"
@@ -137,6 +274,7 @@ const Menu = () => {
                                         </span>
                                     </NavLink>
                                 </li>
+
                             </ul>
                         </li>
 

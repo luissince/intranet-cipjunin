@@ -1,9 +1,8 @@
-const Usuario = () => {
+const Roles = () => {
 
     return (
-        <div>usuario</div>
+        <div>Roles</div>
     );
 
 }
 
-export default Usuario;

@@ -16,7 +16,7 @@ const useLoad = () => {
             try {
                 setLoad(true);
 
-                // await new Promise((resolve, reject) => setTimeout(resolve, 3000));
+                //await new Promise((resolve, reject) => setTimeout(resolve, 3000));
 
                 const login = window.localStorage.getItem("login");
                 if (login == null) {

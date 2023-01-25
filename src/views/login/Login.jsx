@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Navigate } from "react-router-dom";
-import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { login } from '../../store/authSlice';
 import { images } from '../../constants/';
@@ -47,7 +46,6 @@ const Login = (props) => {
             }
 
             dispatch(login({ user: request }));
-            // props.history.push("inicio");
         } catch (error) {
             setProcess(false);
             if (error.response) {

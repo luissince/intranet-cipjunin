@@ -8,7 +8,17 @@ import Welcome from './views/welcome/Welcome';
 import Dashboard from './views/dashboard/Dashboard';
 import Login from './views/login/Login';
 import NotFount from './views/pages/NotFound';
-import Roles from'./views/roles/Roles';
+import Usuarios from './views/usuarios/Usuarios'
+import Roles from './views/roles/Roles'
+import Ingresos from './views/ingresos/Ingresos';
+import Capitulos from './views/capitulos/Capitulos'
+import Universidades from './views/universidades/Universidades'
+import Conceptos from './views/conceptos/Conceptos'
+import Ingenieros from './views/ingenieros/Ingenieros'
+import Cobros from './views/cobros/Cobros'
+import Reportes from './views/reportes/Reportes'
+import Entidades from './views/entidades/Entidades'
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -27,10 +37,6 @@ const router = createBrowserRouter([
                 path: '/welcome',
                 element: <Welcome />
             },
-            {
-                path: '/Roles',
-                element: <Roles />
-            },
         ]
     },
     {
@@ -40,6 +46,7 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login />
+                
             }
         ]
     },
