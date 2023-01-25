@@ -37,6 +37,10 @@ const router = createBrowserRouter([
                 path: '/welcome',
                 element: <Welcome />
             },
+            {
+                path: '/roles',
+                element: <Roles />
+            },
         ]
     },
     {
