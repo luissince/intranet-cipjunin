@@ -9,6 +9,8 @@ import Dashboard from './views/dashboard/Dashboard';
 import Login from './views/login/Login';
 import NotFount from './views/pages/NotFound';
 
+import Usuario from './views/usuario/Usuario';
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
                 path: '/welcome',
                 element: <Welcome />
             },
+            {
+                path: '/usuario',
+                element: <Usuario />
+            },
         ]
     },
     {
@@ -36,6 +42,7 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login />
+                
             }
         ]
     },
