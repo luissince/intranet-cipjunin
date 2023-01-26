@@ -8,26 +8,29 @@ const Roles = () => {
             <div class="header">
             <div class ="contenido">
             <h6>Nuevo Rol.</h6>
-            <button type="button" class="btn btn-success"> + Nuevo boton</button>
+            <button type="button" class="btn btn-success"><i class="fa fa-plus"></i> Nuevo boton</button>
             </div>
             
             <div class ="contenido">
             <h6>Recargar.</h6>
-            <button type="button" class="btn btn-light">Recargar</button>
+            <button type="button" class="btn btn-light">
+            <i class="fa fa-refresh"></i> Recargar</button>
             </div>
           <div >
-            <h6>Filtrar por nombre.</h6>
-            <nav class="navbar navbar-light" id="busqueda_rol">
-            <div class="container-fluid">
-            <form class="d-flex">
-                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-
+            <h6>Filtrar por nombre de rol.</h6>
+           
+      
+            <div class="form-group">
+            <div class="input-group">
+                     <input class="form-control" type="search" placeholder="Buscar por Nombres de Rol" aria-label="Search"/>
+                    <div>
                     <button type="submit" class="btn btn-primary" >Buscar</button>
-                         </form>
+                    </div>
+                         </div>
                          
                 </div>
            
-</nav>
+
 </div>
 </div> 
 <div class=" table">
@@ -49,26 +52,29 @@ const Roles = () => {
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td>e</td>
-      <td>edit</td>
-      <td>eli</td>
+      <td><button class="btn btn-info btn-xs" >
+        <i class="fa fa-eye" ></i> </button></td>
+      <td><button class="btn btn-warning btn-xs" onclick="loadDataRol('1')"><i class="fa fa-edit"></i></button></td>
+      <td><button class="btn btn-danger btn-xs" onclick="eliminarRol('1')"><i class="fa fa-trash" ></i> </button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
-      <td>e</td>
-      <td>edit</td>
-      <td>eli</td>
+      <td><button class="btn btn-info btn-xs" >
+        <i class="fa fa-eye" ></i> </button></td>
+      <td><button class="btn btn-warning btn-xs" onclick="loadDataRol('1')"><i class="fa fa-edit"></i></button></td>
+      <td><button class="btn btn-danger btn-xs" onclick="eliminarRol('1')"><i class="fa fa-trash" ></i> </button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td colspan="2">Larry the Bird</td>
       <td>@twitter</td>
-      <td>e</td>
-      <td>edit</td>
-      <td>eli</td>
+      <td><button class="btn btn-info btn-xs" >
+        <i class="fa fa-eye" ></i> </button></td>
+      <td><button class="btn btn-warning btn-xs" onclick="loadDataRol('1')"><i class="fa fa-edit"></i></button></td>
+      <td><button class="btn btn-danger btn-xs" onclick="eliminarRol('1')"><i class="fa fa-trash" ></i> </button></td>
     </tr>
   </tbody>
 </table>

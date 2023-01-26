@@ -67,21 +67,7 @@ const Menu = () => {
                                 </span>
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink to={`/Roles`}
-                                className="pro-inner-item"
-                                role="button"
-                                id="menu2">
-                                <span className="pro-icon-wrapper">
-                                    <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
-                                    </span>
-                                </span>
-                                <span className="pro-item-content">
-                                    roles
-                                </span>
-                            </NavLink>
-                        </li>
+                      
 
                         <li>
                             <NavLink to={`/roles`}
@@ -90,7 +76,7 @@ const Menu = () => {
                                 id="menu2">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        {<i class="fa fa-table"></i>}
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
@@ -134,13 +120,14 @@ const Menu = () => {
                             <NavLink to={`/universidades`}
                                 className="pro-inner-item"
                                 role="button"
-                                id="menu2">
+                                id="universidades">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        {<i class="fa fa-bank"></i>}
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
+                                  
                                     Universidades
                                 </span>
                             </NavLink>

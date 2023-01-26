@@ -41,6 +41,47 @@ const router = createBrowserRouter([
                 path: '/roles',
                 element: <Roles />
             },
+            {
+                path: '/usuarios',
+                element: <Usuarios/>
+            },
+            {
+                path: '/capitulos',
+                element: <Capitulos />
+            },
+            {
+                path: '/cobros',
+                element: <Cobros/>
+            },
+            {
+                path: '/conceptos',
+                element: <Conceptos />
+            },
+            {
+                path: '/entidades',
+                element: <Entidades />
+            },
+            {
+                path: '/ingenieros',
+                element: <Ingenieros />
+            },
+            {
+                path: '/ingresos',
+                element: <Ingresos />
+            },
+
+            {
+                path: '/reportes',
+                element: <Reportes />
+            },
+            {
+                path: '/universidades',
+                element: <Universidades/>
+            },
+            {
+                path: '/load',
+                element: <Load/>
+            },
         ]
     },
     {
