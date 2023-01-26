@@ -38,3 +38,9 @@
     margin:0px auto;
     justify-content: space-around;
 }
+.main-footer {
+    background: #fff;
+    padding: 15px;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+}
