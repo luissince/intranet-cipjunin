@@ -205,6 +205,21 @@ const Menu = () => {
                                 </span>
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink to={`/comprobantes`}
+                                className="pro-inner-item"
+                                role="button"
+                                id="menu2">
+                                <span className="pro-icon-wrapper">
+                                    <span className="pro-icon">
+                                        {<i className="bi bi-9-square-fill"></i>}
+                                    </span>
+                                </span>
+                                <span className="pro-item-content">
+                                    Comprobantes
+                                </span>
+                            </NavLink>
+                        </li>
                         <li >
                             <a href={"#mn7"}
                                 data-bs-toggle="collapse"

@@ -18,6 +18,7 @@ import Ingenieros from './views/ingenieros/Ingenieros'
 import Cobros from './views/cobros/Cobros'
 import Reportes from './views/reportes/Reportes'
 import Entidades from './views/entidades/Entidades'
+import Comprobante from './views/comprobantes/Comprobantes'
 
 const router = createBrowserRouter([
     {
@@ -76,6 +77,10 @@ const router = createBrowserRouter([
             {
                 path: '/entidades',
                 element: <Entidades />
+            },
+            {
+                path: '/comprobantes',
+                element: <Comprobante />
             }
         ]
     },
