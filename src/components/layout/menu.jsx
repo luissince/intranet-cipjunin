@@ -105,10 +105,10 @@ const Menu = () => {
                             <NavLink to={`/capitulos`}
                                 className="pro-inner-item"
                                 role="button"
-                                id="menu2">
+                                id="capitulos">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        {<i class="fa fa-clone"></i>}
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
@@ -136,10 +136,10 @@ const Menu = () => {
                             <NavLink to={`/conceptos`}
                                 className="pro-inner-item"
                                 role="button"
-                                id="menu2">
+                                id="conceptos">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        {<i class="fa fa fa-list-alt"></i>}
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
