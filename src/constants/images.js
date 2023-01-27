@@ -18,6 +18,11 @@ import reporteComprobantes from '../assets/images/reporteComprobantes.png'
 import reporteGlobal from '../assets/images/reporteGlobal.png'
 import resumenAportes from '../assets/images/resumenAportes.png'
 import resumenIngresos from '../assets/images/resumenIngresos.png'
+import sunatlogo from '../assets/images/sunatLogo.png'
+import aceptadoSunat from '../assets/images/aceptadoSunat.svg'
+import anuladoSunat from '../assets/images/anladoSunat.svg'
+import pendiente from '../assets/images/pendienteSunat.svg'
+import rechazadoSunat from '../assets/images/rechazadoSunat.svg'
 
 
 export default {
@@ -40,5 +45,10 @@ export default {
     reporteComprobantes,
     reporteGlobal,
     resumenAportes,
-    resumenIngresos
+    resumenIngresos,
+    sunatlogo,
+    anuladoSunat,
+    aceptadoSunat,
+    pendiente,
+    rechazadoSunat
 }

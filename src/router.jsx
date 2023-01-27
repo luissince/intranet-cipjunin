@@ -23,6 +23,9 @@ import CHabilidad from './views/ingresos/certificadoHabilidad/CHabilidad';
 import CObra from './views/ingresos/certificadoObra/CObra';
 import CProyecto from './views/ingresos/certificadoProyecto/CProyecto';
 import HIngeniero from './views/ingenieros/habilidadIngeniero/HIngeniero';
+import Facturacion from './views/facturacion/Facturacion';
+import NotaCredito from './views/facturacion/notaCredito/NotaCredito';
+import ConsultaComprobante from './views/facturacion/consultaComprobante/ConsultaComprobante'
 
 const router = createBrowserRouter([
     {
@@ -101,6 +104,21 @@ const router = createBrowserRouter([
             {
                 path: '/habilidad-ingeniero',
                 element: <HIngeniero />
+            },
+            ,
+            {
+                path: '/factura',
+                element: <Facturacion />
+            }
+            ,
+            {
+                path: '/nota-credito',
+                element: <NotaCredito />
+            }
+            ,
+            {
+                path: '/consulta-comprobante',
+                element: <ConsultaComprobante />
             }
         ]
     },
