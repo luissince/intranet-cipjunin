@@ -84,22 +84,97 @@ const Menu = () => {
                             </NavLink>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <NavLink to={`/ingresos`}
                                 className="pro-inner-item"
                                 role="button"
                                 id="menu2">
+                            </NavLink>
+                        </li> */}
+                        <li >
+                            <a href={"#mn7"}
+                                data-bs-toggle="collapse"
+                                aria-expanded="false"
+                                className="pro-inner-item"
+                                role="button">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        <i class="bi bi-diagram-3-fill"></i>
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
                                     Ingresos
                                 </span>
-                            </NavLink>
-                        </li>
+                                <span className="pro-arrow-wrapper">
+                                    <span className="pro-arrow"></span>
+                                </span>
+                            </a>
 
+                            <ul className="collapse list-unstyled transition-03" id={"mn7"}>
+                                <li>
+                                    <NavLink to={`/ingresos`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Ingresos
+                                        </span>
+                                    </NavLink>
+                                </li>
+
+                                <li>
+                                    <NavLink to={`/certificado-habilidad`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Certificado de Habilidad
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/certificado-obra`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Certificado de Obra
+                                        </span>
+                                    </NavLink>
+                                </li>
+
+                                <li>
+                                    <NavLink to={`/certificado-proyecto`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Certificado de Proyecto
+                                        </span>
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </li>
                         <li>
                             <NavLink to={`/capitulos`}
                                 className="pro-inner-item"
@@ -219,63 +294,6 @@ const Menu = () => {
                                     Comprobantes
                                 </span>
                             </NavLink>
-                        </li>
-                        <li >
-                            <a href={"#mn7"}
-                                data-bs-toggle="collapse"
-                                aria-expanded="false"
-                                className="pro-inner-item"
-                                role="button">
-                                <span className="pro-icon-wrapper">
-                                    <span className="pro-icon">
-                                        {<i className="bi bi-arrow-right"></i>}
-                                    </span>
-                                </span>
-                                <span className="pro-item-content">
-                                    menu
-                                </span>
-                                <span className="suffix-wrapper">
-                                    <span className="badge yellow">0</span>
-                                </span>
-                                <span className="pro-arrow-wrapper">
-                                    <span className="pro-arrow"></span>
-                                </span>
-                            </a>
-
-                            <ul className="collapse list-unstyled transition-03" id={"mn7"}>
-                                <li>
-                                    <NavLink to={`#`}
-                                        className="pro-inner-item"
-                                        role="button"
-                                        id={`#`}>
-                                        <span className="pro-icon-wrapper">
-                                            <span className="pro-icon">
-                                                <i className="fa fa-minus"></i>
-                                            </span>
-                                        </span>
-                                        <span className="pro-item-content">
-                                            lista 1
-                                        </span>
-                                    </NavLink>
-                                </li>
-
-                                <li>
-                                    <NavLink to={`#`}
-                                        className="pro-inner-item"
-                                        role="button"
-                                        id={`#`}>
-                                        <span className="pro-icon-wrapper">
-                                            <span className="pro-icon">
-                                                <i className="fa fa-minus"></i>
-                                            </span>
-                                        </span>
-                                        <span className="pro-item-content">
-                                            lista 2
-                                        </span>
-                                    </NavLink>
-                                </li>
-
-                            </ul>
                         </li>
 
                     </ul>

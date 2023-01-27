@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Ingresos = () => {
+const CProyecto = () => {
     return (
         <div>
             <div>
-                <h5>Ingresos<small>Lista</small></h5>
+                <h5>Certificado Proyecto<small>Lista</small></h5>
             </div>
             <section className='container-mg' style={{ padding: '0' }}>
                 <div className='row'>
@@ -30,56 +30,8 @@ const Ingresos = () => {
                     </div>
                     <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
-                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Comprobantes(Con Fechas)</p>
-                                <div className='form-group'>
-                                    <select className='form-control'>
-                                        <option>
-                                            - Seleccione -
-                                        </option>
-                                        <option value='1'>
-                                            Boleta (B001)
-                                        </option>
-                                        <option value='2'>
-                                            Factura (F001)
-                                        </option>
-                                        <option value='3'>
-                                            Factura F2 (F002)
-                                        </option>
-                                        <option value='4'>
-                                            Factura (F003)
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3'>
-                        <div className='card' style={{ border: 'none' }}>
-                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Estado(Con Fechas)</p>
-                                <div className='form-group'>
-                                    <select className='form-control'>
-                                        <option>
-                                            - Seleccione -
-                                        </option>
-                                        <option value='1'>
-                                            Cobrado
-                                        </option>
-                                        <option value='2'>
-                                            Anulado
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-lg-6'>
-                        <div className='card' style={{ border: 'none' }}>
                             <div className='card-body' style={{ padding: '1rem 0 0 0' }}>
-                                <p className='card-title'>Filtrar por serie, numeración o colegiado(Presione Enter).</p>
+                                <p className='card-title'>Filtrar por colegiado, N° certificado.</p>
 
                                 <div className="input-group mb-3">
                                     <input type="text" className="form-control" placeholder="Escribe para filtrar automaticamente" aria-label="Recipient's username" aria-describedby="basic-addon2" />
@@ -88,7 +40,7 @@ const Ingresos = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
                             <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
                                 <p className='card-title'>Opccion.</p>
@@ -97,22 +49,24 @@ const Ingresos = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className='table-responsive' style={{ color: 'red', marginTop: '1rem' }}>
                     <table className="table table-borderless table-danger" style={{ borderWidth: '1px', borderStyle: 'dashed', borderColor: '#E31E25' }} >
                         <thead>
                             <tr>
                                 <th scope="col" style={{ color: '#b72928' }}>#</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Anular</th>
                                 <th scope="col" style={{ color: '#b72928' }}>P.D.F</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Detalle</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Fecha</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Comprobante</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Editat</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Colegiado</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Forma de Pago</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Especialidad</th>
+                                <th scope="col" style={{ color: '#b72928' }}>N⁰ Certificado</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Estado</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Total</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Usuario</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Enviar</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Modalidad</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Propietario</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Proyecto</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Monto</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Fecha de Pago</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Fecha Venc.</th>
                             </tr>
                         </thead>
                         <tbody className='table-light'>
@@ -139,4 +93,4 @@ const Ingresos = () => {
     )
 }
 
-export default Ingresos
+export default CProyecto

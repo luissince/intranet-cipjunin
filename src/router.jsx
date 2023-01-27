@@ -19,6 +19,9 @@ import Cobros from './views/cobros/Cobros'
 import Reportes from './views/reportes/Reportes'
 import Entidades from './views/entidades/Entidades'
 import Comprobante from './views/comprobantes/Comprobantes'
+import CHabilidad from './views/ingresos/certificadoHabilidad/CHabilidad';
+import CObra from './views/ingresos/certificadoObra/CObra';
+import CProyecto from './views/ingresos/certificadoProyecto/CProyecto';
 
 const router = createBrowserRouter([
     {
@@ -81,6 +84,18 @@ const router = createBrowserRouter([
             {
                 path: '/comprobantes',
                 element: <Comprobante />
+            },
+            {
+                path: '/certificado-habilidad',
+                element: <CHabilidad />
+            },
+            {
+                path: '/certificado-obra',
+                element: <CObra />
+            },
+            {
+                path: '/certificado-proyecto',
+                element: <CProyecto />
             }
         ]
     },
