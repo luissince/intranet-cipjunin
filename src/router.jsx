@@ -22,6 +22,7 @@ import Comprobante from './views/comprobantes/Comprobantes'
 import CHabilidad from './views/ingresos/certificadoHabilidad/CHabilidad';
 import CObra from './views/ingresos/certificadoObra/CObra';
 import CProyecto from './views/ingresos/certificadoProyecto/CProyecto';
+import HIngeniero from './views/ingenieros/habilidadIngeniero/HIngeniero';
 
 const router = createBrowserRouter([
     {
@@ -96,6 +97,10 @@ const router = createBrowserRouter([
             {
                 path: '/certificado-proyecto',
                 element: <CProyecto />
+            },
+            {
+                path: '/habilidad-ingeniero',
+                element: <HIngeniero />
             }
         ]
     },

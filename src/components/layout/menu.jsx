@@ -220,20 +220,58 @@ const Menu = () => {
                                 </span>
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink to={`/ingenieros`}
+                        <li >
+                            <a href={"#mn8"}
+                                data-bs-toggle="collapse"
+                                aria-expanded="false"
                                 className="pro-inner-item"
-                                role="button"
-                                id="menu2">
+                                role="button">
                                 <span className="pro-icon-wrapper">
                                     <span className="pro-icon">
-                                        {<i className="bi bi-9-square-fill"></i>}
+                                        <i class="bi bi-person-fill"></i>
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
                                     Ingenieros
                                 </span>
-                            </NavLink>
+                                <span className="pro-arrow-wrapper">
+                                    <span className="pro-arrow"></span>
+                                </span>
+                            </a>
+
+                            <ul className="collapse list-unstyled transition-03" id={"mn8"}>
+                                <li>
+                                    <NavLink to={`/ingenieros`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Lista
+                                        </span>
+                                    </NavLink>
+                                </li>
+
+                                <li>
+                                    <NavLink to={`/habilidad-ingeniero`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Habilidad
+                                        </span>
+                                    </NavLink>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <NavLink to={`/cobros`}
