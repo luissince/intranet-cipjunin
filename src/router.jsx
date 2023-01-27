@@ -18,6 +18,14 @@ import Ingenieros from './views/ingenieros/Ingenieros'
 import Cobros from './views/cobros/Cobros'
 import Reportes from './views/reportes/Reportes'
 import Entidades from './views/entidades/Entidades'
+import Configurar from './views/configurar/Configurar'
+import Bancos from './views/bancos/Bancos'
+import Empresa from './views/empresa/Empresa'
+import Empleo from './views/empleo/Empleo'
+import Mensajes from './views/mensajes/Mensajes'
+import Cursos from './views/cursos/Cursos'
+import Directorio from './views/directorio/Directorio'
+import Presidentes from './views/presidentes/Presidentes'
 
 const router = createBrowserRouter([
     {
@@ -77,6 +85,38 @@ const router = createBrowserRouter([
             {
                 path: '/universidades',
                 element: <Universidades/>
+            },
+            {
+                path: '/configurar',
+                element: <Configurar/>
+            },
+            {
+                path: '/bancos',
+                element: <Bancos/>
+            },
+            {
+                path: '/empresa',
+                element: <Empresa/>
+            },
+            {
+                path: '/mensajes',
+                element: <Mensajes/>
+            },
+            {
+                path: '/cursos',
+                element: <Cursos/>
+            },
+            {
+                path: '/directorio',
+                element: <Directorio/>
+            },
+            {
+                path: '/presidentes',
+                element: <Presidentes/>
+            },
+            {
+                path: '/empleo',
+                element: <Empleo/>
             },
             {
                 path: '/load',

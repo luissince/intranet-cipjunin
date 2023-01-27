@@ -219,7 +219,7 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-                                    menu
+                                    Configuracion
                                 </span>
                                 <span className="suffix-wrapper">
                                     <span className="badge yellow">0</span>
@@ -231,7 +231,7 @@ const Menu = () => {
 
                             <ul className="collapse list-unstyled transition-03" id={"mn7"}>
                                 <li>
-                                    <NavLink to={`#`}
+                                    <NavLink to={`/configurar`}
                                         className="pro-inner-item"
                                         role="button"
                                         id={`#`}>
@@ -241,13 +241,13 @@ const Menu = () => {
                                             </span>
                                         </span>
                                         <span className="pro-item-content">
-                                            lista 1
+                                            Configurar
                                         </span>
                                     </NavLink>
                                 </li>
 
                                 <li>
-                                    <NavLink to={`#`}
+                                    <NavLink to={`/bancos`}
                                         className="pro-inner-item"
                                         role="button"
                                         id={`#`}>
@@ -257,14 +257,104 @@ const Menu = () => {
                                             </span>
                                         </span>
                                         <span className="pro-item-content">
-                                            lista 2
+                                            Bancos
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/empresa`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Empresa
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/empleo`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Empleo
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/mensajes`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Mensajes(App)
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/cursos`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Cursos
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/directorio`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Directorio Institucional
+                                        </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to={`/presidentes`}
+                                        className="pro-inner-item"
+                                        role="button"
+                                        id={`#`}>
+                                        <span className="pro-icon-wrapper">
+                                            <span className="pro-icon">
+                                                <i className="fa fa-minus"></i>
+                                            </span>
+                                        </span>
+                                        <span className="pro-item-content">
+                                            Presidente de Capítulo
                                         </span>
                                     </NavLink>
                                 </li>
 
                             </ul>
                         </li>
-
+              
                     </ul>
 
                     {/* <ul className="list-unstyled components">
