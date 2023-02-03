@@ -11,6 +11,7 @@ import NotFount from './views/pages/NotFound';
 
 import Usuario from './views/usuario/Usuario';
 import Roles from './views/roles/Usuario';
+import Prueba1 from './views/Prueba1/Prueba1';
 
 const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
             {
                 path: '/roles',
                 element: <Roles />
+            },
+            {
+                path: '/prueba1',
+                element: <Prueba1 />
             },
         ]
     },
