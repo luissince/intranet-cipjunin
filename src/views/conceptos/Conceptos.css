@@ -1,0 +1,40 @@
+.header{
+    
+    display:flex;
+    justify-content: space-around;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.contenido{
+    height:80px;
+    float:left;
+    margin: 10px;
+}
+.input-group{
+    position: relative;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+}
+
+*{
+    box-sizing:border-box;
+}
+.form-control  {
+   display: flex;
+   border-radius: 0;
+   width: 100%;
+   padding: 6px 12px;
+    box-shadow: none;
+    border-color: #a9aaac;
+}
+.footer{
+    display:flex;
+    margin:0px auto;
+    justify-content: space-around;
+}
