@@ -24,6 +24,7 @@ import Ingenieros from './views/ingenieros/Ingenieros'
 import Cobros from './views/cobros/Cobros'
 import Reportes from './views/reportes/Reportes'
 import Entidades from './views/entidades/Entidades'
+<<<<<<< HEAD
 import Configurar from './views/configurar/Configurar'
 import Bancos from './views/bancos/Bancos'
 import Empresa from './views/empresa/Empresa'
@@ -33,6 +34,16 @@ import Cursos from './views/cursos/Cursos'
 import Directorio from './views/directorio/Directorio'
 import Presidentes from './views/presidentes/Presidentes'
 >>>>>>> c8cfe936773dd5ff29a9321a4c766eb2db103d8b
+=======
+import Comprobante from './views/comprobantes/Comprobantes'
+import CHabilidad from './views/ingresos/certificadoHabilidad/CHabilidad';
+import CObra from './views/ingresos/certificadoObra/CObra';
+import CProyecto from './views/ingresos/certificadoProyecto/CProyecto';
+import HIngeniero from './views/ingenieros/habilidadIngeniero/HIngeniero';
+import Facturacion from './views/facturacion/Facturacion';
+import NotaCredito from './views/facturacion/notaCredito/NotaCredito';
+import ConsultaComprobante from './views/facturacion/consultaComprobante/ConsultaComprobante'
+>>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
 
 const router = createBrowserRouter([
     {
@@ -94,6 +105,7 @@ const router = createBrowserRouter([
                 element: <Reportes />
             },
             {
+<<<<<<< HEAD
                 path: '/universidades',
                 element: <Universidades/>
             },
@@ -134,6 +146,46 @@ const router = createBrowserRouter([
                 element: <Load/>
 >>>>>>> c8cfe936773dd5ff29a9321a4c766eb2db103d8b
             },
+=======
+                path: '/entidades',
+                element: <Entidades />
+            },
+            {
+                path: '/comprobantes',
+                element: <Comprobante />
+            },
+            {
+                path: '/certificado-habilidad',
+                element: <CHabilidad />
+            },
+            {
+                path: '/certificado-obra',
+                element: <CObra />
+            },
+            {
+                path: '/certificado-proyecto',
+                element: <CProyecto />
+            },
+            {
+                path: '/habilidad-ingeniero',
+                element: <HIngeniero />
+            },
+            ,
+            {
+                path: '/factura',
+                element: <Facturacion />
+            }
+            ,
+            {
+                path: '/nota-credito',
+                element: <NotaCredito />
+            }
+            ,
+            {
+                path: '/consulta-comprobante',
+                element: <ConsultaComprobante />
+            }
+>>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
         ]
     },
     {

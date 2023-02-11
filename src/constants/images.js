@@ -13,6 +13,16 @@ import sunat from '../assets/images/sunat.png';
 import unable from '../assets/images/unable.svg';
 import usuario from '../assets/images/usuario.png';
 import xml from '../assets/images/xml.png';
+import reporteColegiados from '../assets/images/reporteColegiados.png'
+import reporteComprobantes from '../assets/images/reporteComprobantes.png'
+import reporteGlobal from '../assets/images/reporteGlobal.png'
+import resumenAportes from '../assets/images/resumenAportes.png'
+import resumenIngresos from '../assets/images/resumenIngresos.png'
+import sunatlogo from '../assets/images/sunatLogo.png'
+import aceptadoSunat from '../assets/images/aceptadoSunat.svg'
+import anuladoSunat from '../assets/images/anladoSunat.svg'
+import pendiente from '../assets/images/pendienteSunat.svg'
+import rechazadoSunat from '../assets/images/rechazadoSunat.svg'
 
 
 export default {
@@ -31,4 +41,14 @@ export default {
     unable,
     usuario,
     xml,
+    reporteColegiados,
+    reporteComprobantes,
+    reporteGlobal,
+    resumenAportes,
+    resumenIngresos,
+    sunatlogo,
+    anuladoSunat,
+    aceptadoSunat,
+    pendiente,
+    rechazadoSunat
 }

@@ -1,85 +1,106 @@
 import React from 'react'
+import { images } from '../../../constants/';
 
-const Ingresos = () => {
+
+const NotaCredito = () => {
     return (
         <div>
             <div>
-                <h5>Ingresos<small>Lista</small></h5>
+                <h5>Nota Credito<small>Lista</small></h5>
             </div>
             <section className='container-mg' style={{ padding: '0' }}>
                 <div className='row'>
                     <div className='col-lg-3'>
+                        <button className='btn btn-success'><i class="bi bi-plus-lg"></i>Nueva Nota de Credito</button>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
-                            <div className='card-body' style={{ padding: '1rem 0 0 0' }}>
-                                <p className='card-title'>Fecha de Inicio(Entre Fechas)</p>
-                                <div className='form-group'>
-                                    <input type='date' className='form-control'></input>
-                                </div>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p>
+                                    <img src={images.sunatlogo} width='28'></img>
+                                    Estados SUNAT:
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-2'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p>
+                                    <img src={images.aceptadoSunat} width='28'></img>
+                                    Aceptado
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-2'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p>
+                                    <img src={images.rechazadoSunat} width='28'></img>
+                                    Rechazado
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-2'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p>
+                                    <img src={images.pendiente} width='28'></img>
+                                    Pendiente de Envio
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
                             <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Fecha de Fin(Entre Fechas).</p>
-                                <div className='form-group'>
-                                    <input type='date' className='form-control'></input>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3'>
-                        <div className='card' style={{ border: 'none' }}>
-                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Comprobantes(Con Fechas)</p>
-                                <div className='form-group'>
-                                    <select className='form-control'>
-                                        <option>
-                                            - Seleccione -
-                                        </option>
-                                        <option value='1'>
-                                            Boleta (B001)
-                                        </option>
-                                        <option value='2'>
-                                            Factura (F001)
-                                        </option>
-                                        <option value='3'>
-                                            Factura F2 (F002)
-                                        </option>
-                                        <option value='4'>
-                                            Factura (F003)
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-3'>
-                        <div className='card' style={{ border: 'none' }}>
-                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Estado(Con Fechas)</p>
-                                <div className='form-group'>
-                                    <select className='form-control'>
-                                        <option>
-                                            - Seleccione -
-                                        </option>
-                                        <option value='1'>
-                                            Cobrado
-                                        </option>
-                                        <option value='2'>
-                                            Anulado
-                                        </option>
-                                    </select>
-                                </div>
+                                <p>
+                                    <img src={images.anuladoSunat} width='28'></img>
+                                    Comunicaciôn de Baja (Anulado)
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
                             <div className='card-body' style={{ padding: '1rem 0 0 0' }}>
-                                <p className='card-title'>Filtrar por serie, numeración o colegiado(Presione Enter).</p>
+                                <p className='card-title'>Fecha de inicio(Entre Fechas).</p>
+                                <div className='form-group'>
+                                    <input type='date' className='form-control'></input>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-3'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p className='card-title'>Fecha de fin(Entre Fechas).</p>
+                                <div className='form-group'>
+                                    <input type='date' className='form-control'></input>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-3'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
+                                <p className='card-title'>Envio Masivo</p>
+                                <a className='btn btn-danger '><i className="fa fa-gg-circle"></i>Envio masivo a Sunat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-lg-5'>
+                        <div className='card' style={{ border: 'none' }}>
+                            <div className='card-body' style={{ padding: '1rem 0 0 0' }}>
+                                <p className='card-title'>Filtrar por colegiado, N° certificado.</p>
 
                                 <div className="input-group mb-3">
                                     <input type="text" className="form-control" placeholder="Escribe para filtrar automaticamente" aria-label="Recipient's username" aria-describedby="basic-addon2" />
@@ -88,11 +109,11 @@ const Ingresos = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-3'>
                         <div className='card' style={{ border: 'none' }}>
                             <div className='card-body' style={{ padding: '1rem 0 0 0 ' }}>
-                                <p className='card-title'>Opccion.</p>
-                                <a className='btn ' style={{ backgroundColor: '#e7e7e7' }}><i className="bi bi-arrow-clockwise"></i>Recargar</a>
+                                <p className='card-title'>Opcion</p>
+                                <a className='btn ' style={{ backgroundColor: '#e7e7e7' }}><i className="bi bi-arrow-clockwise"></i>Actualizar</a>
                             </div>
                         </div>
                     </div>
@@ -105,14 +126,13 @@ const Ingresos = () => {
                                 <th scope="col" style={{ color: '#b72928' }}>Anular</th>
                                 <th scope="col" style={{ color: '#b72928' }}>P.D.F</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Detalle</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Fecha</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Comprobante</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Colegiado</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Forma de Pago</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Modificado</th>
                                 <th scope="col" style={{ color: '#b72928' }}>Estado</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Total</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Usuario</th>
-                                <th scope="col" style={{ color: '#b72928' }}>Enviar</th>
+                                <th scope="col" style={{ color: '#b72928' }}>total</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Estado Sunat</th>
+                                <th scope="col" style={{ color: '#b72928' }}>Observaciones Sunat</th>
                             </tr>
                         </thead>
                         <tbody className='table-light'>
@@ -139,4 +159,4 @@ const Ingresos = () => {
     )
 }
 
-export default Ingresos
+export default NotaCredito
