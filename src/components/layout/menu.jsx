@@ -46,7 +46,7 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-                                    Welcome 
+                                    Welcome
                                 </span>
                             </NavLink>
                         </li>
@@ -67,7 +67,7 @@ const Menu = () => {
                                 </span>
                             </NavLink>
                         </li>
-                      
+
 
                         <li>
                             <NavLink to={`/roles`}
@@ -177,9 +177,6 @@ const Menu = () => {
                             </ul>
                         </li>
                         <li>
-<<<<<<< HEAD
-                            <NavLink to={`/prueba1`}
-=======
                             <NavLink to={`/capitulos`}
                                 className="pro-inner-item"
                                 role="button"
@@ -205,7 +202,7 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-                                  
+
                                     Universidades
                                 </span>
                             </NavLink>
@@ -310,7 +307,6 @@ const Menu = () => {
                         </li>
                         <li>
                             <NavLink to={`/entidades`}
->>>>>>> c8cfe936773dd5ff29a9321a4c766eb2db103d8b
                                 className="pro-inner-item"
                                 role="button"
                                 id="menu2">
@@ -320,20 +316,12 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-<<<<<<< HEAD
                                     Prueba1
                                 </span>
                             </NavLink>
                         </li>
 
-=======
-                                    Entidades
-                                </span>
-                            </NavLink>
-                        </li>
-<<<<<<< HEAD
->>>>>>> c8cfe936773dd5ff29a9321a4c766eb2db103d8b
-=======
+
                         <li>
                             <NavLink to={`/comprobantes`}
                                 className="pro-inner-item"
@@ -350,7 +338,6 @@ const Menu = () => {
                             </NavLink>
                         </li>
 
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                         <li >
                             <a href={"#mn10"}
                                 data-bs-toggle="collapse"
@@ -363,14 +350,11 @@ const Menu = () => {
                                     </span>
                                 </span>
                                 <span className="pro-item-content">
-<<<<<<< HEAD
                                     Configuracion
                                 </span>
                                 <span className="suffix-wrapper">
                                     <span className="badge yellow">0</span>
-=======
                                     Facturacion
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                 </span>
                                 <span className="pro-arrow-wrapper">
                                     <span className="pro-arrow"></span>
@@ -379,11 +363,7 @@ const Menu = () => {
 
                             <ul className="collapse list-unstyled transition-03" id={"mn10"}>
                                 <li>
-<<<<<<< HEAD
                                     <NavLink to={`/configurar`}
-=======
-                                    <NavLink to={`/factura`}
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                         className="pro-inner-item"
                                         role="button"
                                         id={`#10`}>
@@ -393,17 +373,13 @@ const Menu = () => {
                                             </span>
                                         </span>
                                         <span className="pro-item-content">
-<<<<<<< HEAD
                                             Configurar
-=======
                                             Boleta/Factura
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                         </span>
                                     </NavLink>
                                 </li>
 
                                 <li>
-<<<<<<< HEAD
                                     <NavLink to={`/bancos`}
                                         className="pro-inner-item"
                                         role="button"
@@ -450,9 +426,6 @@ const Menu = () => {
                                 </li>
                                 <li>
                                     <NavLink to={`/mensajes`}
-=======
-                                    <NavLink to={`/nota-credito`}
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                         className="pro-inner-item"
                                         role="button"
                                         id={`#10`}>
@@ -462,36 +435,26 @@ const Menu = () => {
                                             </span>
                                         </span>
                                         <span className="pro-item-content">
-<<<<<<< HEAD
                                             Mensajes(App)
-=======
                                             Nota Crédito
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                         </span>
                                     </NavLink>
                                 </li>
                                 <li>
-<<<<<<< HEAD
-                                    <NavLink to={`/cursos`}
-                                        className="pro-inner-item"
-                                        role="button"
-                                        id={`#`}>
-=======
-                                    <NavLink to={`/consulta-comprobante`}
-                                        className="pro-inner-item"
-                                        role="button"
-                                        id={`#10`}>
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
-                                        <span className="pro-icon-wrapper">
-                                            <span className="pro-icon">
-                                                <i className="fa fa-minus"></i>
+
+                                        <NavLink to={`/consulta-comprobante`}
+                                            className="pro-inner-item"
+                                            role="button"
+                                            id={`#10`}>
+                                            <span className="pro-icon-wrapper">
+                                                <span className="pro-icon">
+                                                    <i className="fa fa-minus"></i>
+                                                </span>
                                             </span>
-                                        </span>
-                                        <span className="pro-item-content">
-<<<<<<< HEAD
-                                            Cursos
-                                        </span>
-                                    </NavLink>
+                                            <span className="pro-item-content">
+                                                Cursos
+                                            </span>
+                                        </NavLink>
                                 </li>
                                 <li>
                                     <NavLink to={`/directorio`}
@@ -522,13 +485,12 @@ const Menu = () => {
                                             Presidente de Capítulo
 =======
                                             Consultar Comprobante
->>>>>>> 19917bf0b60f332b6036f782e921963c5bc8ddc0
                                         </span>
                                     </NavLink>
                                 </li>
                             </ul>
                         </li>
-              
+
                     </ul>
 
                     {/* <ul className="list-unstyled components">
