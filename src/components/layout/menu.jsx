@@ -483,8 +483,6 @@ const Menu = () => {
                                         </span>
                                         <span className="pro-item-content">
                                             Presidente de Capítulo
-=======
-                                            Consultar Comprobante
                                         </span>
                                     </NavLink>
                                 </li>
